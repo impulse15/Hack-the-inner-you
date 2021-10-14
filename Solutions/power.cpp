@@ -14,7 +14,9 @@ int power(int p,int n)
 int main()
 {
   int num,pow;
+  cout<<"enter base";
   cin>>num;
+  cout<<"enter exponent";
   cin>>pow;
   cout<<power(num,pow);
   return 0;
